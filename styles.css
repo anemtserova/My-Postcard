@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+
+}
+
+#container {
+    margin: 20px;
+    padding: 20px;
+    width: 30vw;
+}
+
+#header, #main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+  width: 50%;  
+}
+
+.logo {
+    text-align: right;
+}
+
+.postcardText, .form, .myPostcard {
+    padding: 5px;
+    margin: 8px;
+}
+
+.box {
+   width: 100%; 
+   padding: 5px;
+   margin: 5px;
+   border: 0;
+   border-bottom: 1px solid gray;
+}
+
+.inputText {
+    font-family: Lato;
+}
+
+#footer {
+    text-align: center;
+}
+
+.btn {
+   padding: 5px;
+   margin: 5px; 
+   background-color: beige;
+   border: 1px solid lightgray;
+   border-radius: 3px;
+}
